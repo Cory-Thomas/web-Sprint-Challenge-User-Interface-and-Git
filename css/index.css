@@ -107,6 +107,8 @@ header nav a {
     margin: 0 auto;
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -120,6 +122,28 @@ header nav a {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.about-section {
+    padding: 2%;
+    border-bottom: 2px dotted black;
+    margin-bottom: 4%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.organized-sections {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.organized-sections div {
+    width: 50%;
+    border-bottom: 2px dotted black;
+    margin-bottom: 5%;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
